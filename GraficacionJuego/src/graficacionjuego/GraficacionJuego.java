@@ -327,8 +327,8 @@ public class GraficacionJuego extends JPanel implements KeyListener {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.setProperty("sun.java2d.opengl","True");
-        JFrame frame=new JFrame("Morelos Suarez Fernando");
+        //System.setProperty("sun.java2d.opengl","True"); //Decoment this line if you're running it on Linux
+        JFrame frame=new JFrame("By Fernando Oxyde | fb.com/cyberoxyde");
         GraficacionJuego panel=new GraficacionJuego();
         frame.add(panel);
         frame.pack();
